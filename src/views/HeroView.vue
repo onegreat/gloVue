@@ -53,14 +53,26 @@
         </div>
       </div>
     </section>
-    <our-best />
+    <section class="best">
+      <div class="container">
+        <div class="title">Our best</div>
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="best__wrapper">
+              <our-best />
+              <our-best />
+              <our-best />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
 <script>
 import NavBarComponent from "@/components/NavBarComponent.vue";
 import OurBest from "@/components/OurBest.vue";
-
 export default {
   components: { NavBarComponent, OurBest },
 };

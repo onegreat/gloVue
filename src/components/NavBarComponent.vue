@@ -9,12 +9,12 @@
       "
     >
       <li class="header__item">
-        <a href="./index.html">
-          <img src="@/assets/logo/Logo.svg" alt="logo" />
-        </a>
+        <router-link to="/"
+          ><img src="@/assets/logo/Logo.svg" alt="logo" />
+        </router-link>
       </li>
       <li class="header__item">
-        <a href="./coffeepage.html">Our coffee</a>
+        <router-link to="/our-coffee">Our coffee</router-link>
       </li>
       <li class="header__item">
         <a href="./goodspage.html">For your pleasure</a>
